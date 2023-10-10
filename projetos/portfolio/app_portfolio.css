@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 5% 5%;
+}
+
+h1 {
+    padding: 5% 0%;
+}
+
+#myImg {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+#myP>p {
+    margin-bottom: 5%;
+}
+
+#myLinks>a{
+    color: red;
+}
