@@ -1,4 +1,4 @@
 # VemSerTech_FrontEnd
-repositório para guardar os projetos feito no curso da Ada - Vem Ser Tech - Front End
+Projetos
+[Veja os projetos](https://andersons7.github.io/VemSerTech_FrontEnd/)
 
-<a href="https://andersons7.github.io/VemSerTech_FrontEnd/">
