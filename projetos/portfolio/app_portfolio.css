@@ -92,7 +92,7 @@
 }
 
 .navigation>a:hover {
-    font-weight: bold;
-    color: #3CB371;
+    background-color: #3CB371;
+    color: white;
 }
 
