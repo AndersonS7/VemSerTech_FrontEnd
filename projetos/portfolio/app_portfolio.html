@@ -10,38 +10,84 @@
 
 <body>
     <div class="container">
-        <section id="about">
-            <div class="left_column">
+        <main id="main">
+            <section class="left_column">
                 <img src="./imgs/eu.jpg" alt="Anderson Silva">
-                <h1>Anderson Queiroz da Silva</h1>
-            </div>
+                <h1>Anderson Silva</h1>
+                <h2>Developer</h2>
+            </section>
 
-            <div class="right_column">
+            <section class="right_column">
+                <div id="about">
+                    <div class="title">
+                        <h2>Sobre</h2>
+                        <hr>
+                    </div>
 
-                <div>
-                    <p>
-                        Graduado em Administração, trabalho na área de telecomunicação, como líder de equipe na <br />
-                        empresa Brisanet. <small> Gosto de praticar esportes, jogar e criar jogos nas horas vagas.</small> <br />
-                    </p>
+                    <div>
+                        <p>
+                            Graduado em Administração, trabalho na área de telecomunicação, como líder de equipe na
+                            <br />
+                            empresa Brisanet. <small> Gosto de praticar esportes, jogar e criar jogos nas horas
+                                vagas.</small> <br />
+                        </p>
 
-                    <p>
-                        Atualmente estou cursando <b> Ciência da Computação</b>, e pretendo migrar para a área de <br />
-                        desenvolvimento. Gosto da área de tecnologia e das coisas legais que é possível criar <br />
-                        estando nela. <br />
-                    </p>
+                        <p>
+                            Atualmente estou cursando <b> Ciência da Computação</b>, e pretendo migrar para a área de
+                            <br />
+                            desenvolvimento. Gosto da área de tecnologia e das coisas legais que é possível criar <br />
+                            estando nela. <br />
+                        </p>
 
-                    <p>
-                        Ao fim deste curso espero ter as habilidades e oportunidades necessárias para poder <br />
-                        realizar meu objetivo de <i> mudar para área de desenvolvimento</i>.
-                    </p>
+                        <p>
+                            Ao fim deste curso espero ter as habilidades e oportunidades necessárias para poder <br />
+                            realizar meu objetivo de <i> mudar para área de desenvolvimento</i>.
+                        </p>
+                    </div>
+
+                    <nav>
+                        <a href="https://www.linkedin.com/in/andersonsilva7/" target="_blank">Linkedin</a>
+                        <a href="https://anderson.vercel.app/" target="_blank">Portfólio</a>
+                    </nav>
+
+                    <!-- separador de seção -->
+                    <div class="separator"></div>
                 </div>
 
-                <nav>
-                    <a href="https://www.linkedin.com/in/andersonsilva7/" target="_blank">Linkedin</a>
-                    <a href="https://anderson.vercel.app/" target="_blank">Portfólio</a>
-                </nav>
-            </div>
-        </section>
+                <div class="contact">
+                    <div class="title">
+                        <h2>Contato</h2>
+                        <hr>
+                    </div>
+
+                    <form method="post" action="https://65288feb931d71583df24b57.mockapi.io/api/v1/user">
+                        <div class="column-top">
+                            <div>
+                                <label for="name" id="username">nome</label>
+                                <input type="text" id="name" name="username" placeholder="digite seu nome" autocomplete="off">
+                            </div>
+
+                            <div>
+                                <label for="email" id="useremail">Email</label>
+                                <input type="email" id="email" name="useremail" placeholder="digite seu email">
+                            </div>
+
+                            <div>
+                                <label for="phone" id="userphone">WhatsApp</label>
+                                <input type="tel" id="phone" name="userphone" placeholder="digite seu whatsapp">
+                            </div>
+                        </div>
+
+                        <div class="column-bottom">
+                            <label for="bodytext" id="userphone">mensagem</label>
+                            <textarea name="bodytext" id="bodytext" cols="100" rows="10"
+                                placeholder="digite aqui sua mensagem"></textarea>
+                            <input type="submit" name="submit" id="submit" value="Enviar">
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </main>
 
         <footer class="navigation">
             <a href="app_portfolio_sem_css.html" target="_blank">Página sem CSS</a>
