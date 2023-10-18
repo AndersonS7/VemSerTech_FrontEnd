@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*GERAL*/
+.container {
+    padding: 0% 10%;
+}
+
+.separator {
+    margin-bottom: 5rem;
+}
+
+/*MENU*/
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 10%;
+    background-color: #4F4F4F;
+    color: #DCDCDC;
+}
+
+.menu>nav {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 3rem;
+}
+
+.menu>nav>a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #DCDCDC;
+    margin-left: 2rem;
+}
+
+.menu>nav>a:hover {
+    color: #00FF7F;
+}
+
+/* TÍTULO E DESCRIÇÃO */
+#descricao {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#descricao>h1 {
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #4F4F4F;
+    margin-bottom: 2%;
+}
+
+#descricao>p {
+    margin-bottom: 5%;
+    font-size: 1.2rem;
+    color: #4F4F4F;
+}
+
+/* TABELA */
+table {
+    width: 60%;
+    border-collapse: collapse;
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    overflow: hidden;
+    margin: auto;
+}
+
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.title-table>th {
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #4F4F4F;
+}
+
+.img-col {
+    display: flex;
+    justify-content: center;
+}
+
+.img-col>img {
+    width: 10rem;
+}
+
+.desconto {
+    text-decoration: line-through;
+    color: red;
+}
+
+/* CADASTRP */
+form {
+    width: 50%;
+    margin: auto;
+}
+::placeholder{
+    text-transform: uppercase;
+    color: #696969;
+    padding: 2px 4px;
+    opacity: 50%;
+}
+form>.column-top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3%;
+}
+
+form>.column-top>div{
+    display: flex;
+    flex-direction: column;
+}
+
+form>.column-top>div>label {
+    text-transform: uppercase;
+    color: #696969;
+}
+
+form>.column-top>div>input {
+    color: #696969;
+    width: 15rem;
+    height: 2rem;
+    padding: 2px 4px;
+}
+
+form>.column-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+form>.column-bottom>label {
+    text-transform: uppercase;
+    color: #696969;
+}
+
+form>.column-bottom>textarea {
+    padding: 2px 4px;
+    margin-bottom: 3%;
+}
+
+form>.column-bottom>input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #696969;
+    border: 2px solid #696969;
+    background-color: transparent;
+    width: 10rem;
+    height: 2.5rem;
+    margin-right: 2rem;
+    transition: 0.2s;
+}
+
+form>.column-bottom>input:hover {
+    color: white;
+    background-color: #3CB371;
+    border: 2px solid #3CB371;
+}
