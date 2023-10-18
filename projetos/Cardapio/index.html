@@ -16,17 +16,21 @@
             </div>
 
             <nav>
-                <a href="#">Cardápio</a>
-                <a href="#">Tabela de descontos</a>
-                <a href="#">Cadastro de produto</a>
+                <a href="#descricao">Cardápio</a>
+                <a href="#tabelaDescontoSemana">Tabela de descontos</a>
+                <a href="#cadastrarProduto">Cadastro de produto</a>
             </nav>
         </div>
     </header>
 
     <div class="container">
         <section id="descricao">
-            <h1>Um título legal</h1>
-            <p>Uma descrição legal para página</p>
+            <h1>comidas cadastradas</h1>
+            <p>
+                Abaixo segue a lista de comidas que foram cadastradas anterior mente no sitema. <br>
+                Use o formulário ao final da página para cadastrar outras comidas que irão aparecer <br>
+                para os clientes no cardápio principal no site.
+            </p>
         </section>
 
         <section id="cardapio">
@@ -94,7 +98,9 @@
         <section id="tabelaDescontoSemana">
             <div id="descricao">
                 <h1>descontos da semana</h1>
-                <p>Uma descrição legal para página</p>
+                <p>
+                    Produtos que foram cadastrados e estão com desconto da semana selecionado. <br>
+                </p>
             </div>
 
             <table>
@@ -135,7 +141,9 @@
         <section id="cadastrarProduto">
             <div id="descricao">
                 <h1>cadastro de produtos</h1>
-                <p>Uma descrição legal para página</p>
+                <p>
+                    Cadastre novos produtos para aparecer no cardápio principal no site dos clientes.
+                </p>
             </div>
             <form method="post" action="https://65288feb931d71583df24b57.mockapi.io/api/v1/user">
                 <div class="column-top">
@@ -154,12 +162,29 @@
                         <label for="discount_price" id="discount_price">preço com desconto</label>
                         <input type="number" id="discount_price" name="discount_price" placeholder="R$ 25,00">
                     </div>
+
                 </div>
 
                 <div class="column-bottom">
                     <label for="description" id="description">breve descrição do produto</label>
                     <textarea name="description" id="description" cols="100" rows="10"
                         placeholder="Uma breve descrição sobre batata frita"></textarea>
+
+                    <div class="radio_selected">
+                        <label for="discount">Adicionar desconto</label>
+                        <div>
+                            <span>
+                                <label for="discount_true">Sim</label>
+                                <input type="radio" id="discount_true" name="discount" value="true">
+                            </span>
+
+                            <span>
+                                <label for="discount_false">Não</label>
+                                <input type="radio" id="discount_false" name="discount" value="false">
+                            </span>
+                        </div>
+                    </div>
+
                     <button>cadastrar produto</button>
                 </div>
             </form>

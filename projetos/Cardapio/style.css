@@ -109,19 +109,21 @@ form {
     width: 50%;
     margin: auto;
 }
-::placeholder{
+
+::placeholder {
     text-transform: uppercase;
     color: #4F4F4F;
     padding: 2px 4px;
     opacity: 50%;
 }
+
 form>.column-top {
     display: flex;
     justify-content: space-between;
     margin-bottom: 3%;
 }
 
-form>.column-top>div{
+form>.column-top>div {
     display: flex;
     flex-direction: column;
 }
@@ -173,6 +175,30 @@ button:hover {
     color: white;
     background-color: #3CB371;
     border: 2px solid #3CB371;
+}
+
+.radio_selected {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-transform: uppercase;
+    color: #4F4F4F;
+    margin-bottom: 2rem;
+}
+
+.radio_selected>div {
+    display: flex;
+    justify-content: space-between;
+    width: 5.5rem;
+}
+
+.radio_selected>div>span {
+    display: flex;
+    margin-right: 2rem;
+}
+
+.radio_selected>div>span>label {
+    margin-right: 0.5rem;
 }
 
 /* FOOTER */
