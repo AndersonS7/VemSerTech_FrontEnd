@@ -18,7 +18,7 @@
     margin-bottom: 5%;
 }
 
-.title> h1 {
+.title>h1 {
     color: #696969;
 }
 
@@ -56,4 +56,31 @@
     color: white;
     background-color: #3CB371;
     border: 2px solid #3CB371;
+}
+
+.repo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 10%;
+}
+
+.repo>a {
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 100%;
+    padding: 1% 0%;
+    color: white;
+    background-color: #696969;
+    border-top-left-radius: 0.5rem;
+    transition: 0.3s;
+}
+
+.repo>a:hover {
+    font-weight: bold;
+    color:white;
+    background-color: #3CB371;
+    text-decoration: none;
 }
