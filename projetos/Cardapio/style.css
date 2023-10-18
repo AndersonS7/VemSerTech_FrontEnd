@@ -111,7 +111,7 @@ form {
 }
 ::placeholder{
     text-transform: uppercase;
-    color: #696969;
+    color: #4F4F4F;
     padding: 2px 4px;
     opacity: 50%;
 }
@@ -128,11 +128,11 @@ form>.column-top>div{
 
 form>.column-top>div>label {
     text-transform: uppercase;
-    color: #696969;
+    color: #4F4F4F;
 }
 
 form>.column-top>div>input {
-    color: #696969;
+    color: #4F4F4F;
     width: 15rem;
     height: 2rem;
     padding: 2px 4px;
@@ -145,7 +145,7 @@ form>.column-bottom {
 
 form>.column-bottom>label {
     text-transform: uppercase;
-    color: #696969;
+    color: #4F4F4F;
 }
 
 form>.column-bottom>textarea {
@@ -153,15 +153,15 @@ form>.column-bottom>textarea {
     margin-bottom: 3%;
 }
 
-form>.column-bottom>input {
+button {
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     font-weight: bolder;
     text-transform: uppercase;
-    color: #696969;
-    border: 2px solid #696969;
+    color: #4F4F4F;
+    border: 2px solid #4F4F4F;
     background-color: transparent;
     width: 10rem;
     height: 2.5rem;
@@ -169,8 +169,17 @@ form>.column-bottom>input {
     transition: 0.2s;
 }
 
-form>.column-bottom>input:hover {
+button:hover {
     color: white;
     background-color: #3CB371;
     border: 2px solid #3CB371;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    height: 3rem;
+    background-color: #4F4F4F;
+    color: white;
+    padding: 1rem 0rem;
 }
