@@ -1,0 +1,237 @@
+/* Reset de margens e paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  background-color: tomato;
+}
+
+header nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+header nav ul li a {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #864F3C;
+}
+
+/* container */
+.container {
+  padding: 5%;
+}
+
+/* title */
+.title {
+  text-align: center;
+}
+
+.title h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #864F3C;
+  margin-bottom: 1.5rem;
+}
+
+.title p {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 400;
+  width: 50%;
+  color: #864F3C;
+  margin: auto;
+}
+
+/* menu */
+#menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* tabela */
+table {
+  width: 70%;
+  border-collapse: collapse;
+}
+
+td {
+  text-align: center;
+  /* border: 1px solid #864F3C; */
+}
+
+tr .description,
+tr .title {
+  padding-left: 2rem;
+  text-align: start;
+  width: 70%;
+}
+
+tr .title {
+  font-size: 1.3rem;
+  font-weight: 400;
+  color: #fff;
+  background-color: #864F3C;
+  height: 1.5rem;
+}
+
+.img {
+  height: 100%;
+  width: 100%;
+}
+
+.container-img {
+  width: 12%;
+  background-color: #f9f9f9;
+}
+
+.price-table {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #864F3C;
+  width: 8%;
+}
+
+/* forulário */
+#cadastro {
+  text-align: center;
+}
+
+#cadastro h2 {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #864F3C;
+  margin-bottom: 2rem;
+  padding-top: 8%;
+}
+
+form {
+  width: 30%;
+  text-align: start;
+  height: 50vh;
+  margin: auto;
+}
+
+label {
+  font-size: 1rem;
+  text-transform: uppercase;
+  font-weight: 400;
+  color: #864F3C;
+  margin-bottom: 2rem;
+}
+
+input {
+  border: 1px solid #864F3C;
+  height: 2rem;
+  width: 100%;
+  padding-left: 2%;
+}
+
+input:focus {
+  outline: 0;
+}
+
+button {
+  height: 2.5rem;
+  width: 8rem;
+  border: none;
+  background-color: #864F3C;
+  color: #fff;
+  text-transform: uppercase;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: tomato;
+}
+
+/* footer */
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 3rem;
+  background-color: tomato;
+}
+
+footer nav ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+}
+
+footer nav ul li a {
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+footer nav ul li a:hover {
+  color: #864F3C;
+}
+
+@media (max-width: 768px) {
+
+  /* tabela */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  tr .description,
+  tr .title {
+    padding-left: 2rem;
+    text-align: start;
+    width: 100%;
+  }
+
+  tr .description {
+    height: 8rem;
+  }
+
+  .container-img {
+    display: none;
+  }
+
+  /* formulário */
+  form {
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 1024px) {
+  form {
+    width: 80%;
+  }
+}
+
+/* CORES BASES */
+/*
+ - tomato
+ - #864F3C
+*/
