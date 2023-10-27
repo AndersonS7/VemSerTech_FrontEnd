@@ -74,11 +74,6 @@ table {
   border-collapse: collapse;
 }
 
-td {
-  text-align: center;
-  /* border: 1px solid #864F3C; */
-}
-
 tr .description,
 tr .title {
   padding-left: 2rem;
@@ -196,6 +191,14 @@ footer nav ul li a:hover {
 
 @media (max-width: 768px) {
 
+  .title {
+    margin-bottom: 8rem;
+  }
+
+  #cadastro {
+    margin-top: 8rem;
+  }
+
   /* tabela */
   table {
     width: 100%;
@@ -206,7 +209,7 @@ footer nav ul li a:hover {
   tr .title {
     padding-left: 2rem;
     text-align: start;
-    width: 100%;
+    width: 100%rem;
   }
 
   tr .description {
